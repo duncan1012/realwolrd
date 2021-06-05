@@ -1,2 +1,4 @@
 .nuxt
 node_modules
+*.tar.gz
+root@113.31.155.107
