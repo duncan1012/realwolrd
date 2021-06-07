@@ -19,9 +19,6 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: sudo tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.js
-      with: 
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
 
     # 发布 Release
     - name: Create Release
